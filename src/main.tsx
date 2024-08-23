@@ -3,7 +3,7 @@ import App from './App.tsx'
 import './index.css'
 import { TonConnectUIProvider } from '@tonconnect/ui-react'
 
-const manifestUrl = "https://f87d-188-116-40-79.ngrok-free.app/manifest.json";
+const manifestUrl = "https://mikewazowsky.github.io/first_contract_frontend/manifest.json";
 
 createRoot(document.getElementById('root') as HTMLElement).render(
   <TonConnectUIProvider manifestUrl={manifestUrl}>
